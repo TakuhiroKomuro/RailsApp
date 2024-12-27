@@ -8,3 +8,20 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.page-container {
+  width: 100%;
+  margin: auto;
+  background-color: #C9BFB6;
+}
+
+.page-container .page-wrapper {
+  padding: 30px 70px;
+}
+
+.page-container .page-wrapper .inner {
+  /* padding: 0; */
+}
+
+.page-container .page-wrapper .inner .title-container, .content-container {
+  text-align: center;
+}
